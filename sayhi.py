@@ -30,7 +30,7 @@ def check_button_in_page(url):
 
 # Function to send a message
 def send_telegram_message():
-    url_to_check = "https://www.arpej.fr/fr/residence/residence-etudiante-saint-mande/"
+    url_to_check = "https://www.arpej.fr/fr/residence/nicolas-appert-residence-etudiante-ivry-sur-seine/"
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
     if check_button_in_page(url_to_check):
         message = f"a jrrrrrrrrrriiii There is a logement available: {url_to_check}"
@@ -50,4 +50,4 @@ def send_telegram_message():
 if __name__ == "__main__":
     while True:
         send_telegram_message()
-        time.sleep(1800)  # Wait 30 minutes before running again
+        time.sleep(600)  # Wait 30 minutes before running again
