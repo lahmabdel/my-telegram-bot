@@ -1,7 +1,7 @@
 import requests
 
 # Telegram bot token
-TOKEN = "7702053498:AAFk1PF5cUOTQtPLuRCBtyBvhAsGv2drbzY"
+TOKEN = ""
 
 def get_chat_id():
     """Fetch updates and print the chat ID of the last message sender."""

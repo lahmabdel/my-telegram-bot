@@ -2,7 +2,7 @@ from flask import Flask, request, Response
 import requests
 
 # Telegram bot token
-TOKEN = "7702053498:AAFk1PF5cUOTQtPLuRCBtyBvhAsGv2drbzY"
+TOKEN = ""
 
 app = Flask(__name__)
 
